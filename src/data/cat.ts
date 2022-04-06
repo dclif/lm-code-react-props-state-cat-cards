@@ -3,4 +3,5 @@ export default interface Cat {
     species: string;
     favFoods: string[];
     birthYear: number;
+    id?: string;
 }
